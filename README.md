@@ -4,4 +4,6 @@ This readme will contain a list of commits and changes to the project and later 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-8-29-2024 : Create repo and README.md
+* 8-29-2024 : Create repo and README.md
+* 8-29-2024 : add site branch and styling branch, add styling to index
+* 8-29-2024 : Estasblish site as main branch for site on github pages
