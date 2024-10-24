@@ -1,0 +1,12 @@
+# flask basics
+to open flask, you first need to build it by installing python and the python3 virtual environment:
+* sudo apt install python3
+* sudo apt install python3.12-venv
+then build the venv:
+* python3 -m venv venv
+after that you can activate the venv:
+* source venv/bin/activate
+you can exit the venv by doing:
+* deactivate
+to stop the current app you have flask set to, you press CTRL + C in the shell.
+to open the app you activated when you do flask run, you ctrl click on the link in the shell.
