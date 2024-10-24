@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link ref="stylehseet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron mt-4">
+    <div class="container mt-4">
+        <div class="jumbotron">
             <h1 class="display-4">Steven's Test Page!</h1>
             <p class="lead">Hello! My name is Steven, and this is my website.</p>
             <hr class="my-4">
             <p>This website is under construction! Soon, it will contain much more!</p>
-            <a class="btn btn-primary btn-lg" href="projects.html" role="button">Projects</a>
-            <a class="btn btn-primary btn-lg" href="contacts.html" role="button">Contact Me</a>
+            <div class="d-flex flex-column">
+                <a class="btn btn-primary btn-lg mb-2" href="projects.html" role="button">Projects</a>
+                <a class="btn btn-primary btn-lg mb-2" href="contacts.html" role="button">Contact Me</a>
+                <a class="btn btn-primary btn-lg mb-2" href="about.html" role="button">About</a>
+                <a class="btn btn-primary btn-lg mb-2" href="blog.html" role="button">Blog</a>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
